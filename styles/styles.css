@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url(/images/fondo.png);
+    background-image: url(../images/fondo.png);
 }
 
 
@@ -28,6 +28,9 @@ header {
 .logo {
     margin-right: auto;
     cursor: pointer;
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
 }
 
 .nav-links {
