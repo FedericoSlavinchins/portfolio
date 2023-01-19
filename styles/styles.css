@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url(./images/fondo.png);
+    background-image: url(/images/fondo.png);
 }
 
 /* Encabezado */
@@ -235,4 +235,11 @@ button:hover {
 
 .skills-adicionales li {
     list-style: circle;
+}
+
+
+/* Proyectos */
+
+.proyectos {
+    background-color: #101010;
 }
