@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url('images/fondo.png');
+    background-image: url('/images/fondo.png');
 }
 
 /* Encabezado */
@@ -179,7 +179,7 @@ button:hover {
 
 
 .about {
-    background-color: #191919;
+    background-color: #101010;
     width: 100%;
     height: 100%;
     height: auto;
@@ -240,7 +240,7 @@ button:hover {
 /* Proyectos */
 
 .proyectos {
-    background-color: #101010;
+    background-color: #191919;
     padding: 50px 0px 50px 0px;
 }
 
@@ -269,12 +269,104 @@ button:hover {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-    background-color: #191919;
+    background-color: #101010;
+}
+
+/* Contacto */
+
+.contact {
+    padding: 40px 15%;
+    background-color: #101010;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form {
+    position: relative;
 }
 
 
-.contactar {
-    padding: 50px 50px 50px 50px;
-    background-color: #191919;
+.contact-form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1570px) {
+    contact {
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    .contact-form h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1090px) {
+    contact {
+        grid-gap: 2rem;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 1000px) {
+    contact {
+        grid-template-columns: 1fr;
+    }
+    .contact-form {
+        order: 2;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    background-image: url(/images/footer.png);
+}
