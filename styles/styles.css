@@ -160,8 +160,9 @@ button:hover {
 }*/
 
 .card .back p {
-    margin: 40px 40px;
+    margin: 40px 0px;
     letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .card:hover .front{
