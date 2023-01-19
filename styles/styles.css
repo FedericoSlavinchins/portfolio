@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url(../images/fondo.png);
+    background-image: url(images/fondo.png);
 }
 
 /* Encabezado */
@@ -51,7 +51,7 @@ li, a, button {
     color: white
 }
 
-
+/*
 button {
     margin-left: 10px;
     padding: 20px 30px;
@@ -63,9 +63,9 @@ button {
 
 button:hover {
     color: white
-}
+}*/
 
-/*
+
 button {
     margin-left: 10px;
     padding: 9px 25px;
@@ -80,7 +80,7 @@ button:hover {
     background-color: rgba(97, 204, 231, 0.8);
     color: white
 }
-*/
+
 
 /*Presentación*/
 
@@ -105,11 +105,15 @@ button:hover {
     text-align: justify;
 }
 
+
+
+/* About */
+
 .card {
     position: relative;
     width: 300px;
     height: 400px;
-    margin: 20px;
+    margin: 20px 50px 20px 115px;
 }
 
 .card .face {
@@ -174,21 +178,31 @@ button:hover {
 }
 
 
-/* Habilidades */
-
-.habilidades {
-    background-color: black;
+.about {
+    background-color: #191919;
     width: 100%;
     height: auto;
     border-radius: 10px;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 65px;
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.descripcion {
+    margin: 15px 50px 0px 0px;
+}
+
+.descripcion h2{
+    font-weight: bold;
     
 }
 
-.conocimientos {
-    list-style: none;
-    width: 33%;
-    margin-bottom: 500px;
+.descripcion p {
+    text-align: justify;
+    width: 100%;
 }
-
