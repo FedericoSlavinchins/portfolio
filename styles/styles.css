@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url(../images/fondo.png);
+    background-image: url(/images/fondo.png);
 }
 
 /* Encabezado */
@@ -51,7 +51,7 @@ li, a, button {
     color: white
 }
 
-/*
+
 button {
     margin-left: 10px;
     padding: 20px 30px;
@@ -63,9 +63,9 @@ button {
 
 button:hover {
     color: white
-}*/
+}
 
-
+/*
 button {
     margin-left: 10px;
     padding: 9px 25px;
@@ -77,9 +77,10 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(97, 204, 231, 0.8);
+    color: white
 }
-
+*/
 
 /*Presentación*/
 
@@ -100,6 +101,8 @@ button:hover {
 
 .presentacion p {
     color: rgb(210, 210, 210);
+    line-height: 25px;
+    text-align: justify;
 }
 
 .card {
