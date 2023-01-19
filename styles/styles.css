@@ -180,5 +180,14 @@ button:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    opacity: .1;
+    display: flex;
+    gap: 10px;
+    
 }
+
+.conocimientos {
+    list-style: none;
+    width: 33%;
+    margin-bottom: 500px;
+}
+
